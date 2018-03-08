@@ -1,0 +1,143 @@
+.glyphicon {
+   margin-right:10px;
+}
+.panel-body {
+   padding:0px;
+}
+.panel-body table tr td {
+    padding-left: 15px;
+	font-size:13px;
+}
+.panel-body .table {
+    margin-bottom: 0px;
+}
+ .collapsible-accordion li {
+    margin: 3px !important;
+    background-color: #eee !important;
+    border: 1px solid #ccc !important;
+    border-radius: 2px!important;
+}
+.btn-default , .btn-default:hover {
+    background-color: #eee !important;
+    border: 1px solid #ccc !important;
+}
+.step-indicator {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.step {
+    display: block;
+    float: left;
+    font-weight: bold;
+    background: #cccccc;
+    padding-right: 10px;
+    height: 30px;
+    line-height: 32px;
+    margin-right: 33px;
+    position: relative;
+    text-decoration: none;
+    color: #666;
+    cursor: default;
+}
+      .step:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 0;
+        left: -30px;
+        border: 15px solid transparent;
+        border-color: #f9f9f9;
+        border-left-color: transparent;
+      }
+      .step:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 0;
+        right: -30px;
+        border: 15px solid transparent;
+        border-left-color: #f9f9f9;
+      }
+      .step:first-of-type {
+        border-radius: 2px 0 0 2px;
+        padding-left: 15px;
+      }
+      .step:first-of-type:before {
+        display: none;
+      }
+      .step:last-of-type {
+        border-radius: 0 2px 2px 0;
+        margin-right: 25px;
+        padding-right: 15px;
+      }
+      .step:last-of-type:after {
+        display: none;
+      }
+      .step.completed {
+        background: #cccccc;
+        color: #fff !important;
+        cursor: pointer;
+      }
+      .step.completed:before {
+        border-color: #cccccc;
+        border-left-color: transparent;
+      }
+      .step.completed:after {
+        border-left-color: #cccccc;
+      }
+      .step.completed:hover {
+        background: #cccccc !important;
+        border-color: #cccccc;
+        color: #fff;
+        text-decoration: none;
+      }
+      .step.completed:hover:before {
+        border-color: #cccccc;
+        border-left-color: transparent;
+      }
+      .step.completed:hover:after {
+        border-left-color: #cccccc;
+      }
+.left-menu {
+    width: 100%;
+}
+.left-menu.fixed-left-menu {
+    position: fixed;
+    top: 20px;
+    width: 22.7%;
+}
+.card_body {
+	background:#eee;
+}
+.card_body {
+    background: #fff;
+}
+.title_text {
+    font-size: 22px;
+    margin-top: 0 !important;
+	margin-bottom: 0 !important;
+    text-align: left !important;
+    font-weight: 600 !important;
+}
+.article_text{
+	font-size:14px;
+}
+.article_text {
+    font-size: 13px;
+    color: #444;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align:justify;
+}
+.related-title {
+    font-size: 14px;
+    color: #fff;
+    padding: 13px 10px 10px;
+    margin-top: 0;
+    display: block;
+    letter-spacing: 0.5px;
+}
